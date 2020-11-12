@@ -1,0 +1,1013 @@
+> perf@1.0.0 artillery /home/adc-admin/Documents/Facultad/ArqSoft/2c20-tp-1/perf
+> artillery "run" "arqsoft.yaml" "-e" "arqsoft9090"
+
+Started phase 0 (Plain), duration: 10s @ 19:25:27(-0300) 2020-11-07
+Report @ 19:25:37(-0300) 2020-11-07
+Elapsed time: 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Started phase 1 (Ramp), duration: 30s @ 19:25:37(-0300) 2020-11-07
+Report @ 19:25:47(-0300) 2020-11-07
+Elapsed time: 20 seconds
+  Scenarios launched:  81
+  Scenarios completed: 65
+  Requests completed:  65
+  Mean response/sec: 8.19
+  Response time (msec):
+    min: 1303.7
+    max: 1332.1
+    median: 1307
+    p95: 1313.4
+    p99: 1330.1
+  Codes:
+    200: 65
+
+Report @ 19:25:57(-0300) 2020-11-07
+Elapsed time: 30 seconds
+  Scenarios launched:  177
+  Scenarios completed: 171
+  Requests completed:  171
+  Mean response/sec: 17.72
+  Response time (msec):
+    min: 1302.5
+    max: 1338.2
+    median: 1305.2
+    p95: 1316
+    p99: 1324.1
+  Codes:
+    200: 171
+
+Report @ 19:26:07(-0300) 2020-11-07
+Elapsed time: 40 seconds
+  Scenarios launched:  255
+  Scenarios completed: 238
+  Requests completed:  238
+  Mean response/sec: 25.55
+  Response time (msec):
+    min: 1301.1
+    max: 1325.8
+    median: 1304
+    p95: 1307.2
+    p99: 1319.9
+  Codes:
+    200: 238
+
+Started phase 2 (Plain), duration: 120s @ 19:26:07(-0300) 2020-11-07
+Report @ 19:26:17(-0300) 2020-11-07
+Elapsed time: 50 seconds
+  Scenarios launched:  59
+  Scenarios completed: 91
+  Requests completed:  91
+  Mean response/sec: 5.89
+  Response time (msec):
+    min: 1301.9
+    max: 1329.1
+    median: 1304.3
+    p95: 1306.7
+    p99: 1320.6
+  Codes:
+    200: 91
+
+Report @ 19:26:27(-0300) 2020-11-07
+Elapsed time: 1 minute, 0 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.09
+  Response time (msec):
+    min: 1301.8
+    max: 1305.9
+    median: 1303.8
+    p95: 1305.4
+    p99: 1305.9
+  Codes:
+    200: 50
+
+Report @ 19:26:37(-0300) 2020-11-07
+Elapsed time: 1 minute, 10 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.09
+  Response time (msec):
+    min: 1302
+    max: 1307
+    median: 1304.1
+    p95: 1305.2
+    p99: 1307
+  Codes:
+    200: 50
+
+Report @ 19:26:47(-0300) 2020-11-07
+Elapsed time: 1 minute, 20 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.09
+  Response time (msec):
+    min: 1301.9
+    max: 1335.4
+    median: 1303.7
+    p95: 1309.3
+    p99: 1335.4
+  Codes:
+    200: 50
+
+Report @ 19:26:57(-0300) 2020-11-07
+Elapsed time: 1 minute, 30 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.08
+  Response time (msec):
+    min: 1302.2
+    max: 1309.9
+    median: 1304.6
+    p95: 1306.8
+    p99: 1309.9
+  Codes:
+    200: 50
+
+Report @ 19:27:07(-0300) 2020-11-07
+Elapsed time: 1 minute, 40 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.09
+  Response time (msec):
+    min: 1302
+    max: 1311.9
+    median: 1304.1
+    p95: 1306.3
+    p99: 1311.9
+  Codes:
+    200: 50
+
+Report @ 19:27:17(-0300) 2020-11-07
+Elapsed time: 1 minute, 50 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.09
+  Response time (msec):
+    min: 1301.8
+    max: 1305.5
+    median: 1303.5
+    p95: 1304.8
+    p99: 1305.5
+  Codes:
+    200: 50
+
+Report @ 19:27:27(-0300) 2020-11-07
+Elapsed time: 2 minutes, 0 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.09
+  Response time (msec):
+    min: 1301.8
+    max: 1305.3
+    median: 1303.3
+    p95: 1304.2
+    p99: 1305.3
+  Codes:
+    200: 50
+
+Report @ 19:27:37(-0300) 2020-11-07
+Elapsed time: 2 minutes, 10 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.09
+  Response time (msec):
+    min: 1302.1
+    max: 1317
+    median: 1303.1
+    p95: 1303.9
+    p99: 1317
+  Codes:
+    200: 50
+
+Report @ 19:27:47(-0300) 2020-11-07
+Elapsed time: 2 minutes, 20 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.09
+  Response time (msec):
+    min: 1302
+    max: 1322.4
+    median: 1303.2
+    p95: 1305.8
+    p99: 1322.4
+  Codes:
+    200: 50
+
+Report @ 19:27:57(-0300) 2020-11-07
+Elapsed time: 2 minutes, 30 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.09
+  Response time (msec):
+    min: 1301.6
+    max: 1309.8
+    median: 1303.1
+    p95: 1305.7
+    p99: 1309.8
+  Codes:
+    200: 50
+
+Report @ 19:28:07(-0300) 2020-11-07
+Elapsed time: 2 minutes, 40 seconds
+  Scenarios launched:  50
+  Scenarios completed: 50
+  Requests completed:  50
+  Mean response/sec: 5.09
+  Response time (msec):
+    min: 1301.8
+    max: 1306.1
+    median: 1303.2
+    p95: 1304
+    p99: 1306.1
+  Codes:
+    200: 50
+
+Started phase 3 (Plain), duration: 120s @ 19:28:07(-0300) 2020-11-07
+Report @ 19:28:17(-0300) 2020-11-07
+Elapsed time: 2 minutes, 50 seconds
+  Scenarios launched:  98
+  Scenarios completed: 92
+  Requests completed:  92
+  Mean response/sec: 9.97
+  Response time (msec):
+    min: 1301.8
+    max: 1313.1
+    median: 1302.7
+    p95: 1304.3
+    p99: 1312.1
+  Codes:
+    200: 92
+
+Report @ 19:28:27(-0300) 2020-11-07
+Elapsed time: 3 minutes, 0 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1301.7
+    max: 1305.9
+    median: 1302.6
+    p95: 1303.5
+    p99: 1305.3
+  Codes:
+    200: 100
+
+Report @ 19:28:37(-0300) 2020-11-07
+Elapsed time: 3 minutes, 10 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1301.9
+    max: 1319.8
+    median: 1302.6
+    p95: 1309.4
+    p99: 1318.1
+  Codes:
+    200: 100
+
+Report @ 19:28:47(-0300) 2020-11-07
+Elapsed time: 3 minutes, 20 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1301.8
+    max: 1310.4
+    median: 1302.6
+    p95: 1304.9
+    p99: 1308.8
+  Codes:
+    200: 100
+
+Report @ 19:28:57(-0300) 2020-11-07
+Elapsed time: 3 minutes, 30 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1301.5
+    max: 1312.1
+    median: 1302.5
+    p95: 1303.7
+    p99: 1308.7
+  Codes:
+    200: 100
+
+Report @ 19:29:07(-0300) 2020-11-07
+Elapsed time: 3 minutes, 40 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1301.3
+    max: 1307
+    median: 1302.5
+    p95: 1305.1
+    p99: 1307
+  Codes:
+    200: 100
+
+Report @ 19:29:17(-0300) 2020-11-07
+Elapsed time: 3 minutes, 50 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1300.9
+    max: 1308.4
+    median: 1302.5
+    p95: 1304.2
+    p99: 1307.6
+  Codes:
+    200: 100
+
+Report @ 19:29:27(-0300) 2020-11-07
+Elapsed time: 4 minutes, 0 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1301.4
+    max: 1309.2
+    median: 1302.4
+    p95: 1303.7
+    p99: 1308.5
+  Codes:
+    200: 100
+
+Report @ 19:29:37(-0300) 2020-11-07
+Elapsed time: 4 minutes, 10 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1301.4
+    max: 1316.6
+    median: 1302.4
+    p95: 1303.6
+    p99: 1311
+  Codes:
+    200: 100
+
+Report @ 19:29:47(-0300) 2020-11-07
+Elapsed time: 4 minutes, 20 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1301.6
+    max: 1318.3
+    median: 1302.6
+    p95: 1305
+    p99: 1316.8
+  Codes:
+    200: 100
+
+Report @ 19:29:57(-0300) 2020-11-07
+Elapsed time: 4 minutes, 30 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.08
+  Response time (msec):
+    min: 1301.2
+    max: 1311.9
+    median: 1302.6
+    p95: 1304.1
+    p99: 1308.8
+  Codes:
+    200: 100
+
+Report @ 19:30:07(-0300) 2020-11-07
+Elapsed time: 4 minutes, 40 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1301.4
+    max: 1304.8
+    median: 1302.6
+    p95: 1303.7
+    p99: 1304.6
+  Codes:
+    200: 100
+
+Started phase 4 (Plain), duration: 120s @ 19:30:07(-0300) 2020-11-07
+Report @ 19:30:17(-0300) 2020-11-07
+Elapsed time: 4 minutes, 50 seconds
+  Scenarios launched:  148
+  Scenarios completed: 141
+  Requests completed:  141
+  Mean response/sec: 14.92
+  Response time (msec):
+    min: 1301.4
+    max: 1308
+    median: 1302.5
+    p95: 1303.5
+    p99: 1304.7
+  Codes:
+    200: 141
+
+Report @ 19:30:27(-0300) 2020-11-07
+Elapsed time: 5 minutes, 0 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.06
+  Response time (msec):
+    min: 1301.5
+    max: 1305.5
+    median: 1302.5
+    p95: 1303.7
+    p99: 1305.3
+  Codes:
+    200: 150
+
+Report @ 19:30:37(-0300) 2020-11-07
+Elapsed time: 5 minutes, 10 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.06
+  Response time (msec):
+    min: 1300.9
+    max: 1324.6
+    median: 1302.2
+    p95: 1303.3
+    p99: 1304.1
+  Codes:
+    200: 150
+
+Report @ 19:30:47(-0300) 2020-11-07
+Elapsed time: 5 minutes, 20 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1301.3
+    max: 1308.4
+    median: 1302.3
+    p95: 1303.1
+    p99: 1305.3
+  Codes:
+    200: 150
+
+Report @ 19:30:57(-0300) 2020-11-07
+Elapsed time: 5 minutes, 30 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1301.2
+    max: 1303.8
+    median: 1302.3
+    p95: 1303
+    p99: 1303.3
+  Codes:
+    200: 150
+
+Report @ 19:31:07(-0300) 2020-11-07
+Elapsed time: 5 minutes, 40 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1301.1
+    max: 1306
+    median: 1302.4
+    p95: 1303.2
+    p99: 1304.9
+  Codes:
+    200: 150
+
+Report @ 19:31:17(-0300) 2020-11-07
+Elapsed time: 5 minutes, 50 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.06
+  Response time (msec):
+    min: 1301.2
+    max: 1322.1
+    median: 1302.4
+    p95: 1304.5
+    p99: 1311.1
+  Codes:
+    200: 150
+
+Report @ 19:31:27(-0300) 2020-11-07
+Elapsed time: 6 minutes, 0 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1301.3
+    max: 1305.1
+    median: 1302.4
+    p95: 1302.9
+    p99: 1303.5
+  Codes:
+    200: 150
+
+Report @ 19:31:37(-0300) 2020-11-07
+Elapsed time: 6 minutes, 10 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.06
+  Response time (msec):
+    min: 1301
+    max: 1307.2
+    median: 1302.1
+    p95: 1304.4
+    p99: 1307
+  Codes:
+    200: 150
+
+Report @ 19:31:47(-0300) 2020-11-07
+Elapsed time: 6 minutes, 20 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.06
+  Response time (msec):
+    min: 1301.3
+    max: 1309.3
+    median: 1302.3
+    p95: 1303
+    p99: 1308
+  Codes:
+    200: 150
+
+Report @ 19:31:57(-0300) 2020-11-07
+Elapsed time: 6 minutes, 30 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1301.3
+    max: 1311.7
+    median: 1302.2
+    p95: 1303
+    p99: 1303.9
+  Codes:
+    200: 150
+
+Report @ 19:32:07(-0300) 2020-11-07
+Elapsed time: 6 minutes, 40 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1301.1
+    max: 1319.5
+    median: 1302.3
+    p95: 1303.2
+    p99: 1315.4
+  Codes:
+    200: 150
+
+Started phase 5 (Plain), duration: 120s @ 19:32:07(-0300) 2020-11-07
+Report @ 19:32:17(-0300) 2020-11-07
+Elapsed time: 6 minutes, 50 seconds
+  Scenarios launched:  198
+  Scenarios completed: 192
+  Requests completed:  192
+  Mean response/sec: 19.84
+  Response time (msec):
+    min: 1300.6
+    max: 1305.8
+    median: 1301.7
+    p95: 1303.2
+    p99: 1304.8
+  Codes:
+    200: 192
+
+Report @ 19:32:27(-0300) 2020-11-07
+Elapsed time: 7 minutes, 0 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  Mean response/sec: 20.06
+  Response time (msec):
+    min: 1300.6
+    max: 1309.6
+    median: 1301.7
+    p95: 1303.4
+    p99: 1307.4
+  Codes:
+    200: 200
+
+Report @ 19:32:37(-0300) 2020-11-07
+Elapsed time: 7 minutes, 10 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  Mean response/sec: 20.04
+  Response time (msec):
+    min: 1300.7
+    max: 1305.4
+    median: 1301.7
+    p95: 1302.8
+    p99: 1303.6
+  Codes:
+    200: 200
+
+Report @ 19:32:47(-0300) 2020-11-07
+Elapsed time: 7 minutes, 20 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  Mean response/sec: 20.04
+  Response time (msec):
+    min: 1300.6
+    max: 1309.8
+    median: 1301.8
+    p95: 1303.2
+    p99: 1304.4
+  Codes:
+    200: 200
+
+Report @ 19:32:57(-0300) 2020-11-07
+Elapsed time: 7 minutes, 30 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  Mean response/sec: 20.02
+  Response time (msec):
+    min: 1300.7
+    max: 1305.1
+    median: 1301.7
+    p95: 1302.7
+    p99: 1304.4
+  Codes:
+    200: 200
+
+Report @ 19:33:07(-0300) 2020-11-07
+Elapsed time: 7 minutes, 40 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  Mean response/sec: 20.04
+  Response time (msec):
+    min: 1300.7
+    max: 1303.7
+    median: 1301.7
+    p95: 1302.6
+    p99: 1303.1
+  Codes:
+    200: 200
+
+Report @ 19:33:17(-0300) 2020-11-07
+Elapsed time: 7 minutes, 50 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  Mean response/sec: 20.04
+  Response time (msec):
+    min: 1300.7
+    max: 1317.9
+    median: 1301.8
+    p95: 1303
+    p99: 1304.8
+  Codes:
+    200: 200
+
+Report @ 19:33:27(-0300) 2020-11-07
+Elapsed time: 8 minutes, 0 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  Mean response/sec: 20.04
+  Response time (msec):
+    min: 1300.7
+    max: 1305.9
+    median: 1301.7
+    p95: 1302.9
+    p99: 1305.6
+  Codes:
+    200: 200
+
+Report @ 19:33:37(-0300) 2020-11-07
+Elapsed time: 8 minutes, 10 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  Mean response/sec: 20.04
+  Response time (msec):
+    min: 1300.7
+    max: 1309.8
+    median: 1301.5
+    p95: 1302.5
+    p99: 1304.6
+  Codes:
+    200: 200
+
+Report @ 19:33:47(-0300) 2020-11-07
+Elapsed time: 8 minutes, 20 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  Mean response/sec: 20.04
+  Response time (msec):
+    min: 1300.6
+    max: 1306.9
+    median: 1301.6
+    p95: 1302.8
+    p99: 1306
+  Codes:
+    200: 200
+
+Report @ 19:33:57(-0300) 2020-11-07
+Elapsed time: 8 minutes, 30 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  Mean response/sec: 20.04
+  Response time (msec):
+    min: 1300.8
+    max: 1312.1
+    median: 1301.6
+    p95: 1303
+    p99: 1307.1
+  Codes:
+    200: 200
+
+Report @ 19:34:07(-0300) 2020-11-07
+Elapsed time: 8 minutes, 40 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  Mean response/sec: 20.04
+  Response time (msec):
+    min: 1300.6
+    max: 1305
+    median: 1301.6
+    p95: 1302.5
+    p99: 1303
+  Codes:
+    200: 200
+
+Started phase 6 (Plain), duration: 120s @ 19:34:07(-0300) 2020-11-07
+Report @ 19:34:17(-0300) 2020-11-07
+Elapsed time: 8 minutes, 50 seconds
+  Scenarios launched:  17
+  Scenarios completed: 42
+  Requests completed:  42
+  Mean response/sec: 1.7
+  Response time (msec):
+    min: 1300.8
+    max: 1307.4
+    median: 1302
+    p95: 1303.4
+    p99: 1307.4
+  Codes:
+    200: 42
+
+Report @ 19:34:27(-0300) 2020-11-07
+Elapsed time: 9 minutes, 0 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1.04
+  Response time (msec):
+    min: 1301.6
+    max: 1303.1
+    median: 1302.7
+    p95: 1303.1
+    p99: 1303.1
+  Codes:
+    200: 10
+
+Report @ 19:34:37(-0300) 2020-11-07
+Elapsed time: 9 minutes, 10 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1.04
+  Response time (msec):
+    min: 1302.3
+    max: 1303.9
+    median: 1303
+    p95: 1303.9
+    p99: 1303.9
+  Codes:
+    200: 10
+
+Report @ 19:34:47(-0300) 2020-11-07
+Elapsed time: 9 minutes, 20 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1.04
+  Response time (msec):
+    min: 1301.3
+    max: 1306.2
+    median: 1302.7
+    p95: 1306.2
+    p99: 1306.2
+  Codes:
+    200: 10
+
+Report @ 19:34:57(-0300) 2020-11-07
+Elapsed time: 9 minutes, 30 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1.04
+  Response time (msec):
+    min: 1302.2
+    max: 1303.4
+    median: 1302.8
+    p95: 1303.4
+    p99: 1303.4
+  Codes:
+    200: 10
+
+Report @ 19:35:07(-0300) 2020-11-07
+Elapsed time: 9 minutes, 40 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1.04
+  Response time (msec):
+    min: 1301.6
+    max: 1303.6
+    median: 1302.9
+    p95: 1303.6
+    p99: 1303.6
+  Codes:
+    200: 10
+
+Report @ 19:35:17(-0300) 2020-11-07
+Elapsed time: 9 minutes, 50 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1.04
+  Response time (msec):
+    min: 1302
+    max: 1303
+    median: 1302.5
+    p95: 1303
+    p99: 1303
+  Codes:
+    200: 10
+
+Report @ 19:35:27(-0300) 2020-11-07
+Elapsed time: 10 minutes, 0 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1.04
+  Response time (msec):
+    min: 1301.6
+    max: 1307.2
+    median: 1302.5
+    p95: 1307.2
+    p99: 1307.2
+  Codes:
+    200: 10
+
+Report @ 19:35:37(-0300) 2020-11-07
+Elapsed time: 10 minutes, 10 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1.04
+  Response time (msec):
+    min: 1301.3
+    max: 1303.1
+    median: 1302.4
+    p95: 1303.1
+    p99: 1303.1
+  Codes:
+    200: 10
+
+Report @ 19:35:47(-0300) 2020-11-07
+Elapsed time: 10 minutes, 20 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1.04
+  Response time (msec):
+    min: 1301.6
+    max: 1304.3
+    median: 1302.6
+    p95: 1304.3
+    p99: 1304.3
+  Codes:
+    200: 10
+
+Report @ 19:35:57(-0300) 2020-11-07
+Elapsed time: 10 minutes, 30 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1.04
+  Response time (msec):
+    min: 1301.9
+    max: 1317
+    median: 1302.9
+    p95: 1317
+    p99: 1317
+  Codes:
+    200: 10
+
+Report @ 19:36:07(-0300) 2020-11-07
+Elapsed time: 10 minutes, 40 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1.04
+  Response time (msec):
+    min: 1301.3
+    max: 1308.7
+    median: 1302.8
+    p95: 1308.7
+    p99: 1308.7
+  Codes:
+    200: 10
+
+Started phase 7 (Plain), duration: 10s @ 19:36:07(-0300) 2020-11-07
+Report @ 19:36:17(-0300) 2020-11-07
+Elapsed time: 10 minutes, 50 seconds
+  Scenarios launched:  1
+  Scenarios completed: 2
+  Requests completed:  2
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: 1302.6
+    max: 1303.2
+    median: 1302.9
+    p95: 1303.2
+    p99: 1303.2
+  Codes:
+    200: 2
+
+Report @ 19:36:18(-0300) 2020-11-07
+Elapsed time: 10 minutes, 51 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+All virtual users finished
+Summary report @ 19:36:18(-0300) 2020-11-07
+  Scenarios launched:  6644
+  Scenarios completed: 6644
+  Requests completed:  6644
+  Mean response/sec: 10.37
+  Response time (msec):
+    min: 1300.6
+    max: 1338.2
+    median: 1302.3
+    p95: 1305.1
+    p99: 1309.4
+  Scenario counts:
+    Root (/): 6644 (100%)
+  Codes:
+    200: 6644
