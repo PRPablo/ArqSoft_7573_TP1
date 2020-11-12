@@ -1,0 +1,1051 @@
+> perf@1.0.0 artillery /home/fabrizio/Escritorio/Arq soft/2c20-tp-1/perf
+> artillery "run" "rootLong.yaml" "-e" "gunicorn"
+
+Started phase 0 (Plain), duration: 10s @ 14:49:14(-0300) 2020-11-08
+Report @ 14:49:24(-0300) 2020-11-08
+Elapsed time: 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Started phase 1 (Ramp), duration: 30s @ 14:49:24(-0300) 2020-11-08
+Report @ 14:49:34(-0300) 2020-11-08
+Elapsed time: 20 seconds
+  Scenarios launched:  82
+  Scenarios completed: 82
+  Requests completed:  82
+  Mean response/sec: 8.32
+  Response time (msec):
+    min: 1
+    max: 19.6
+    median: 4.6
+    p95: 5.3
+    p99: 15.2
+  Codes:
+    200: 82
+
+Report @ 14:49:44(-0300) 2020-11-08
+Elapsed time: 30 seconds
+  Scenarios launched:  176
+  Scenarios completed: 176
+  Requests completed:  176
+  Mean response/sec: 17.65
+  Response time (msec):
+    min: 1
+    max: 34.8
+    median: 4.4
+    p95: 4.9
+    p99: 20.9
+  Codes:
+    200: 176
+
+Report @ 14:49:54(-0300) 2020-11-08
+Elapsed time: 40 seconds
+  Scenarios launched:  255
+  Scenarios completed: 255
+  Requests completed:  255
+  Mean response/sec: 25.55
+  Response time (msec):
+    min: 1
+    max: 31.5
+    median: 4.3
+    p95: 4.7
+    p99: 6.9
+  Codes:
+    200: 255
+
+Started phase 2 (Plain), duration: 120s @ 14:49:55(-0300) 2020-11-08
+Report @ 14:50:04(-0300) 2020-11-08
+Elapsed time: 50 seconds
+  Scenarios launched:  155
+  Scenarios completed: 155
+  Requests completed:  155
+  Mean response/sec: 15.53
+  Response time (msec):
+    min: 1.1
+    max: 4.7
+    median: 3.2
+    p95: 4.4
+    p99: 4.5
+  Codes:
+    200: 155
+
+Report @ 14:50:14(-0300) 2020-11-08
+Elapsed time: 1 minute, 0 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1.1
+    max: 4.8
+    median: 3.1
+    p95: 4.4
+    p99: 4.6
+  Codes:
+    200: 150
+
+Report @ 14:50:24(-0300) 2020-11-08
+Elapsed time: 1 minute, 10 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1.1
+    max: 4.7
+    median: 3.1
+    p95: 4.5
+    p99: 4.6
+  Codes:
+    200: 150
+
+Report @ 14:50:34(-0300) 2020-11-08
+Elapsed time: 1 minute, 20 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1.1
+    max: 17.2
+    median: 3.1
+    p95: 4.5
+    p99: 6.3
+  Codes:
+    200: 150
+
+Report @ 14:50:44(-0300) 2020-11-08
+Elapsed time: 1 minute, 30 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1.1
+    max: 7.3
+    median: 3.1
+    p95: 4.3
+    p99: 6.6
+  Codes:
+    200: 150
+
+Report @ 14:50:54(-0300) 2020-11-08
+Elapsed time: 1 minute, 40 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.06
+  Response time (msec):
+    min: 1
+    max: 7.3
+    median: 3.1
+    p95: 4.6
+    p99: 6.8
+  Codes:
+    200: 150
+
+Report @ 14:51:04(-0300) 2020-11-08
+Elapsed time: 1 minute, 50 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1.1
+    max: 7.3
+    median: 3.2
+    p95: 4.5
+    p99: 6.9
+  Codes:
+    200: 150
+
+Report @ 14:51:14(-0300) 2020-11-08
+Elapsed time: 2 minutes, 0 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1.1
+    max: 7.4
+    median: 3.1
+    p95: 4.4
+    p99: 6.2
+  Codes:
+    200: 150
+
+Report @ 14:51:24(-0300) 2020-11-08
+Elapsed time: 2 minutes, 10 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.06
+  Response time (msec):
+    min: 1
+    max: 5.8
+    median: 3.2
+    p95: 4.4
+    p99: 4.8
+  Codes:
+    200: 150
+
+Report @ 14:51:34(-0300) 2020-11-08
+Elapsed time: 2 minutes, 20 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1
+    max: 4.5
+    median: 3.2
+    p95: 4.3
+    p99: 4.4
+  Codes:
+    200: 150
+
+Report @ 14:51:44(-0300) 2020-11-08
+Elapsed time: 2 minutes, 30 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1.1
+    max: 5.1
+    median: 3.2
+    p95: 4.4
+    p99: 5
+  Codes:
+    200: 150
+
+Report @ 14:51:54(-0300) 2020-11-08
+Elapsed time: 2 minutes, 40 seconds
+  Scenarios launched:  150
+  Scenarios completed: 150
+  Requests completed:  150
+  Mean response/sec: 15.05
+  Response time (msec):
+    min: 1.1
+    max: 6.2
+    median: 3.3
+    p95: 4.6
+    p99: 4.8
+  Codes:
+    200: 150
+
+Started phase 3 (Plain), duration: 120s @ 14:51:55(-0300) 2020-11-08
+Report @ 14:52:04(-0300) 2020-11-08
+Elapsed time: 2 minutes, 50 seconds
+  Scenarios launched:  294
+  Scenarios completed: 294
+  Requests completed:  294
+  Mean response/sec: 29.52
+  Response time (msec):
+    min: 1
+    max: 4.6
+    median: 1.2
+    p95: 2
+    p99: 3.7
+  Codes:
+    200: 294
+
+Report @ 14:52:14(-0300) 2020-11-08
+Elapsed time: 3 minutes, 0 seconds
+  Scenarios launched:  300
+  Scenarios completed: 300
+  Requests completed:  300
+  Mean response/sec: 30.03
+  Response time (msec):
+    min: 1
+    max: 3
+    median: 1.2
+    p95: 1.8
+    p99: 2.6
+  Codes:
+    200: 300
+
+Report @ 14:52:24(-0300) 2020-11-08
+Elapsed time: 3 minutes, 10 seconds
+  Scenarios launched:  300
+  Scenarios completed: 300
+  Requests completed:  300
+  Mean response/sec: 30.03
+  Response time (msec):
+    min: 1
+    max: 4.2
+    median: 1.1
+    p95: 2
+    p99: 3.5
+  Codes:
+    200: 300
+
+Report @ 14:52:34(-0300) 2020-11-08
+Elapsed time: 3 minutes, 20 seconds
+  Scenarios launched:  300
+  Scenarios completed: 300
+  Requests completed:  300
+  Mean response/sec: 30.03
+  Response time (msec):
+    min: 1
+    max: 4.4
+    median: 1.2
+    p95: 1.9
+    p99: 2.5
+  Codes:
+    200: 300
+
+Report @ 14:52:44(-0300) 2020-11-08
+Elapsed time: 3 minutes, 30 seconds
+  Scenarios launched:  300
+  Scenarios completed: 300
+  Requests completed:  300
+  Mean response/sec: 30.03
+  Response time (msec):
+    min: 1
+    max: 4.8
+    median: 1.2
+    p95: 2.2
+    p99: 3.1
+  Codes:
+    200: 300
+
+Report @ 14:52:54(-0300) 2020-11-08
+Elapsed time: 3 minutes, 40 seconds
+  Scenarios launched:  300
+  Scenarios completed: 300
+  Requests completed:  300
+  Mean response/sec: 30.03
+  Response time (msec):
+    min: 1
+    max: 3.7
+    median: 1.2
+    p95: 1.9
+    p99: 3
+  Codes:
+    200: 300
+
+Report @ 14:53:04(-0300) 2020-11-08
+Elapsed time: 3 minutes, 50 seconds
+  Scenarios launched:  300
+  Scenarios completed: 300
+  Requests completed:  300
+  Mean response/sec: 30.03
+  Response time (msec):
+    min: 1
+    max: 3.1
+    median: 1.2
+    p95: 1.7
+    p99: 2.4
+  Codes:
+    200: 300
+
+Report @ 14:53:14(-0300) 2020-11-08
+Elapsed time: 4 minutes, 0 seconds
+  Scenarios launched:  300
+  Scenarios completed: 300
+  Requests completed:  300
+  Mean response/sec: 30.03
+  Response time (msec):
+    min: 1
+    max: 4
+    median: 1.2
+    p95: 2
+    p99: 3.1
+  Codes:
+    200: 300
+
+Report @ 14:53:24(-0300) 2020-11-08
+Elapsed time: 4 minutes, 10 seconds
+  Scenarios launched:  300
+  Scenarios completed: 300
+  Requests completed:  300
+  Mean response/sec: 30.03
+  Response time (msec):
+    min: 1
+    max: 2.9
+    median: 1.1
+    p95: 1.9
+    p99: 2.5
+  Codes:
+    200: 300
+
+Report @ 14:53:34(-0300) 2020-11-08
+Elapsed time: 4 minutes, 20 seconds
+  Scenarios launched:  300
+  Scenarios completed: 300
+  Requests completed:  300
+  Mean response/sec: 30.03
+  Response time (msec):
+    min: 1
+    max: 3.4
+    median: 1.2
+    p95: 1.7
+    p99: 2.3
+  Codes:
+    200: 300
+
+Report @ 14:53:44(-0300) 2020-11-08
+Elapsed time: 4 minutes, 30 seconds
+  Scenarios launched:  300
+  Scenarios completed: 300
+  Requests completed:  300
+  Mean response/sec: 30.03
+  Response time (msec):
+    min: 1
+    max: 4.2
+    median: 1.1
+    p95: 1.8
+    p99: 2.6
+  Codes:
+    200: 300
+
+Report @ 14:53:54(-0300) 2020-11-08
+Elapsed time: 4 minutes, 40 seconds
+  Scenarios launched:  300
+  Scenarios completed: 300
+  Requests completed:  300
+  Mean response/sec: 30.03
+  Response time (msec):
+    min: 0.9
+    max: 4.4
+    median: 1.2
+    p95: 2.1
+    p99: 3.3
+  Codes:
+    200: 300
+
+Started phase 4 (Plain), duration: 120s @ 14:53:55(-0300) 2020-11-08
+Report @ 14:54:04(-0300) 2020-11-08
+Elapsed time: 4 minutes, 50 seconds
+  Scenarios launched:  445
+  Scenarios completed: 444
+  Requests completed:  444
+  Mean response/sec: 44.44
+  Response time (msec):
+    min: 0.9
+    max: 3.1
+    median: 1.1
+    p95: 1.6
+    p99: 2.1
+  Codes:
+    200: 444
+
+Warning: 
+CPU usage of Artillery seems to be very high (pids: 88223)
+which may severely affect its performance.
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 14:54:14(-0300) 2020-11-08
+Elapsed time: 5 minutes, 0 seconds
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  Mean response/sec: 45.1
+  Response time (msec):
+    min: 0.9
+    max: 3.7
+    median: 1.1
+    p95: 1.4
+    p99: 2
+  Codes:
+    200: 450
+
+Report @ 14:54:24(-0300) 2020-11-08
+Elapsed time: 5 minutes, 10 seconds
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  Mean response/sec: 45.09
+  Response time (msec):
+    min: 0.9
+    max: 5.1
+    median: 1.1
+    p95: 1.6
+    p99: 1.9
+  Codes:
+    200: 450
+
+Warning: High CPU usage warning (pids: 88223).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 14:54:34(-0300) 2020-11-08
+Elapsed time: 5 minutes, 20 seconds
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  Mean response/sec: 45.09
+  Response time (msec):
+    min: 0.9
+    max: 4.4
+    median: 1.1
+    p95: 1.4
+    p99: 2
+  Codes:
+    200: 450
+
+Report @ 14:54:44(-0300) 2020-11-08
+Elapsed time: 5 minutes, 30 seconds
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  Mean response/sec: 45.09
+  Response time (msec):
+    min: 0.9
+    max: 4.6
+    median: 1.1
+    p95: 1.5
+    p99: 1.9
+  Codes:
+    200: 450
+
+Warning: High CPU usage warning (pids: 88223).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 14:54:54(-0300) 2020-11-08
+Elapsed time: 5 minutes, 40 seconds
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  Mean response/sec: 45.09
+  Response time (msec):
+    min: 0.9
+    max: 5.7
+    median: 1
+    p95: 1.5
+    p99: 1.9
+  Codes:
+    200: 450
+
+Report @ 14:55:04(-0300) 2020-11-08
+Elapsed time: 5 minutes, 50 seconds
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  Mean response/sec: 45.09
+  Response time (msec):
+    min: 0.9
+    max: 5.2
+    median: 1
+    p95: 1.4
+    p99: 1.9
+  Codes:
+    200: 450
+
+Warning: High CPU usage warning (pids: 88223).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 14:55:14(-0300) 2020-11-08
+Elapsed time: 6 minutes, 0 seconds
+  Scenarios launched:  450
+  Scenarios completed: 451
+  Requests completed:  451
+  Mean response/sec: 45.09
+  Response time (msec):
+    min: 0.9
+    max: 5.1
+    median: 1
+    p95: 1.4
+    p99: 1.9
+  Codes:
+    200: 451
+
+Report @ 14:55:24(-0300) 2020-11-08
+Elapsed time: 6 minutes, 10 seconds
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  Mean response/sec: 45.09
+  Response time (msec):
+    min: 0.9
+    max: 2.5
+    median: 1
+    p95: 1.5
+    p99: 1.9
+  Codes:
+    200: 450
+
+Warning: High CPU usage warning (pids: 88223).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 14:55:34(-0300) 2020-11-08
+Elapsed time: 6 minutes, 20 seconds
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  Mean response/sec: 45.09
+  Response time (msec):
+    min: 0.9
+    max: 2
+    median: 1.1
+    p95: 1.3
+    p99: 1.9
+  Codes:
+    200: 450
+
+Report @ 14:55:44(-0300) 2020-11-08
+Elapsed time: 6 minutes, 30 seconds
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  Mean response/sec: 45.09
+  Response time (msec):
+    min: 0.9
+    max: 2.3
+    median: 1
+    p95: 1.4
+    p99: 1.9
+  Codes:
+    200: 450
+
+Warning: High CPU usage warning (pids: 88223).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 14:55:54(-0300) 2020-11-08
+Elapsed time: 6 minutes, 40 seconds
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  Mean response/sec: 45.09
+  Response time (msec):
+    min: 0.9
+    max: 2.1
+    median: 1
+    p95: 1.5
+    p99: 1.9
+  Codes:
+    200: 450
+
+Started phase 5 (Plain), duration: 120s @ 14:55:55(-0300) 2020-11-08
+Report @ 14:56:04(-0300) 2020-11-08
+Elapsed time: 6 minutes, 50 seconds
+  Scenarios launched:  594
+  Scenarios completed: 594
+  Requests completed:  594
+  Mean response/sec: 59.52
+  Response time (msec):
+    min: 0.9
+    max: 2.1
+    median: 1
+    p95: 1.4
+    p99: 1.9
+  Codes:
+    200: 594
+
+Warning: High CPU usage warning (pids: 88223).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 14:56:14(-0300) 2020-11-08
+Elapsed time: 7 minutes, 0 seconds
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  Mean response/sec: 60.06
+  Response time (msec):
+    min: 0.9
+    max: 3.7
+    median: 1
+    p95: 1.4
+    p99: 1.9
+  Codes:
+    200: 600
+
+Report @ 14:56:24(-0300) 2020-11-08
+Elapsed time: 7 minutes, 10 seconds
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  Mean response/sec: 60.06
+  Response time (msec):
+    min: 0.9
+    max: 2
+    median: 1
+    p95: 1.4
+    p99: 1.8
+  Codes:
+    200: 600
+
+Warning: High CPU usage warning (pids: 88223).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 14:56:34(-0300) 2020-11-08
+Elapsed time: 7 minutes, 20 seconds
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  Mean response/sec: 60.06
+  Response time (msec):
+    min: 0.8
+    max: 4.6
+    median: 1
+    p95: 1.4
+    p99: 1.9
+  Codes:
+    200: 600
+
+Report @ 14:56:44(-0300) 2020-11-08
+Elapsed time: 7 minutes, 30 seconds
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  Mean response/sec: 60.06
+  Response time (msec):
+    min: 0.8
+    max: 2
+    median: 1
+    p95: 1.5
+    p99: 1.8
+  Codes:
+    200: 600
+
+Warning: High CPU usage warning (pids: 88223).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 14:56:54(-0300) 2020-11-08
+Elapsed time: 7 minutes, 40 seconds
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  Mean response/sec: 60
+  Response time (msec):
+    min: 0.8
+    max: 5
+    median: 1
+    p95: 1.3
+    p99: 1.9
+  Codes:
+    200: 600
+
+Report @ 14:57:04(-0300) 2020-11-08
+Elapsed time: 7 minutes, 50 seconds
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  Mean response/sec: 60.06
+  Response time (msec):
+    min: 0.9
+    max: 2
+    median: 1
+    p95: 1.4
+    p99: 1.8
+  Codes:
+    200: 600
+
+Warning: High CPU usage warning (pids: 88223).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 14:57:14(-0300) 2020-11-08
+Elapsed time: 8 minutes, 0 seconds
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  Mean response/sec: 60
+  Response time (msec):
+    min: 0.9
+    max: 9.1
+    median: 1
+    p95: 1.4
+    p99: 1.9
+  Codes:
+    200: 600
+
+Report @ 14:57:24(-0300) 2020-11-08
+Elapsed time: 8 minutes, 10 seconds
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  Mean response/sec: 60
+  Response time (msec):
+    min: 0.8
+    max: 2.5
+    median: 1
+    p95: 1.5
+    p99: 1.9
+  Codes:
+    200: 600
+
+Warning: High CPU usage warning (pids: 88223).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 14:57:34(-0300) 2020-11-08
+Elapsed time: 8 minutes, 20 seconds
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  Mean response/sec: 60.06
+  Response time (msec):
+    min: 0.9
+    max: 2
+    median: 1
+    p95: 1.4
+    p99: 1.8
+  Codes:
+    200: 600
+
+Report @ 14:57:44(-0300) 2020-11-08
+Elapsed time: 8 minutes, 30 seconds
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  Mean response/sec: 60
+  Response time (msec):
+    min: 0.9
+    max: 3.3
+    median: 1
+    p95: 1.4
+    p99: 1.9
+  Codes:
+    200: 600
+
+Warning: High CPU usage warning (pids: 88223).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 14:57:54(-0300) 2020-11-08
+Elapsed time: 8 minutes, 40 seconds
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  Mean response/sec: 60
+  Response time (msec):
+    min: 0.9
+    max: 2.4
+    median: 1
+    p95: 1.5
+    p99: 2
+  Codes:
+    200: 600
+
+Started phase 6 (Plain), duration: 120s @ 14:57:55(-0300) 2020-11-08
+Report @ 14:58:04(-0300) 2020-11-08
+Elapsed time: 8 minutes, 50 seconds
+  Scenarios launched:  119
+  Scenarios completed: 119
+  Requests completed:  119
+  Mean response/sec: 11.9
+  Response time (msec):
+    min: 0.9
+    max: 9.5
+    median: 4.3
+    p95: 4.6
+    p99: 8.5
+  Codes:
+    200: 119
+
+Report @ 14:58:14(-0300) 2020-11-08
+Elapsed time: 9 minutes, 0 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1
+    max: 7.8
+    median: 4.3
+    p95: 4.5
+    p99: 6.3
+  Codes:
+    200: 100
+
+Report @ 14:58:24(-0300) 2020-11-08
+Elapsed time: 9 minutes, 10 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1.1
+    max: 8.3
+    median: 4.3
+    p95: 4.7
+    p99: 7.6
+  Codes:
+    200: 100
+
+Report @ 14:58:34(-0300) 2020-11-08
+Elapsed time: 9 minutes, 20 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1.1
+    max: 9.1
+    median: 4.3
+    p95: 5
+    p99: 8.3
+  Codes:
+    200: 100
+
+Report @ 14:58:44(-0300) 2020-11-08
+Elapsed time: 9 minutes, 30 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1.1
+    max: 8.9
+    median: 4.3
+    p95: 5.1
+    p99: 8.8
+  Codes:
+    200: 100
+
+Report @ 14:58:54(-0300) 2020-11-08
+Elapsed time: 9 minutes, 40 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1.1
+    max: 7.3
+    median: 4.3
+    p95: 4.9
+    p99: 7.2
+  Codes:
+    200: 100
+
+Report @ 14:59:04(-0300) 2020-11-08
+Elapsed time: 9 minutes, 50 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1.1
+    max: 5.7
+    median: 4.3
+    p95: 4.8
+    p99: 5.4
+  Codes:
+    200: 100
+
+Report @ 14:59:14(-0300) 2020-11-08
+Elapsed time: 10 minutes, 0 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1
+    max: 5.2
+    median: 4.3
+    p95: 4.7
+    p99: 5.1
+  Codes:
+    200: 100
+
+Report @ 14:59:24(-0300) 2020-11-08
+Elapsed time: 10 minutes, 10 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1.1
+    max: 5.5
+    median: 4.3
+    p95: 4.8
+    p99: 5.3
+  Codes:
+    200: 100
+
+Report @ 14:59:34(-0300) 2020-11-08
+Elapsed time: 10 minutes, 20 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1.1
+    max: 5.3
+    median: 4.3
+    p95: 4.8
+    p99: 5.3
+  Codes:
+    200: 100
+
+Report @ 14:59:44(-0300) 2020-11-08
+Elapsed time: 10 minutes, 30 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1.1
+    max: 6.4
+    median: 4.3
+    p95: 4.7
+    p99: 5.8
+  Codes:
+    200: 100
+
+Report @ 14:59:54(-0300) 2020-11-08
+Elapsed time: 10 minutes, 40 seconds
+  Scenarios launched:  100
+  Scenarios completed: 100
+  Requests completed:  100
+  Mean response/sec: 10.07
+  Response time (msec):
+    min: 1.1
+    max: 6.3
+    median: 4.2
+    p95: 4.7
+    p99: 5.7
+  Codes:
+    200: 100
+
+Started phase 7 (Plain), duration: 10s @ 14:59:55(-0300) 2020-11-08
+Report @ 15:00:04(-0300) 2020-11-08
+Elapsed time: 10 minutes, 50 seconds
+  Scenarios launched:  4
+  Scenarios completed: 4
+  Requests completed:  4
+  Mean response/sec: 0.4
+  Response time (msec):
+    min: 1.1
+    max: 5.2
+    median: 1.2
+    p95: 5.2
+    p99: 5.2
+  Codes:
+    200: 4
+
+Report @ 15:00:05(-0300) 2020-11-08
+Elapsed time: 10 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+All virtual users finished
+Summary report @ 15:00:05(-0300) 2020-11-08
+  Scenarios launched:  19724
+  Scenarios completed: 19724
+  Requests completed:  19724
+  Mean response/sec: 30.78
+  Response time (msec):
+    min: 0.8
+    max: 34.8
+    median: 1.1
+    p95: 4.3
+    p99: 4.7
+  Scenario counts:
+    Root (/): 19724 (100%)
+  Codes:
+    200: 19724
