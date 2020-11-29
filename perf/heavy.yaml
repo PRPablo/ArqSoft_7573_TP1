@@ -48,4 +48,4 @@ scenarios:
   - name: Root (/heavy)
     flow:
       - get:
-          url: '/heavy/'
+          url: '/heavy'
