@@ -39,4 +39,4 @@ scenarios:
   - name: Root (/sleep)
     flow:
       - get:
-          url: '/sleep/'
+          url: '/sleep'
